@@ -12,9 +12,9 @@ $ softwareupdate --install-rosetta --agree-to-license
 ```
 - Create duplicate (call it `rosettaTerm`) of *Terminal* or *iTerm* to open it using Rosetta, which should provide `x86_64` arch environment.
 
-![alt text](./images/duplicate.png "Duplicate terminal App")
-![alt text](./images/getinfo.png "Duplicate terminal App")
-![alt text](./images/openusingrosetta.png "Duplicate terminal App")
+<img src="./images/duplicate.png" alt="duplicate terminal" width="300"/>
+<img src="./images/getinfo.png" alt="get app info" width="300"/>
+<img src="./images/openusingrosetta.png" alt="check open using rosetta" width="300"/>
 
 
 ## Install required packages
