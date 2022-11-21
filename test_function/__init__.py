@@ -10,10 +10,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     name = req.params.get('name')
     try:
         req_body = req.get_json()
+        lastname = req_body.get('lastname')
     except ValueError:
         pass
-    else:
-        lastname = req_body.get('lastname')
 
     if name:
         return func.HttpResponse(f"Hello, {name} {lastname} ({edu}). This HTTP triggered function executed successfully.")
