@@ -6,7 +6,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "init-db",
+      "route": "test/{edu}",
       "methods": ["get", "post"]
     },
     {
