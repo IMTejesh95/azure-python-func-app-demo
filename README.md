@@ -1,6 +1,6 @@
 # Azure Function App Demo Project
 ---
-- ## [Local Environment Setup Guide on Apple Silicon(*M1 - ARM Architecture*) for Python Runtime](./LOCAL_SETUP.md)
+- ### [Local Environment Setup Guide on Apple Silicon(*M1 - ARM Architecture*) for Python Runtime](./LOCAL_SETUP.md)
 
 ## Create new Azure Fucntion and run it locally
 
